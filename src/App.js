@@ -133,7 +133,7 @@ const App = () => {
       {isPending && <p>Product is being added...</p>}
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Name:</label>
+          <label>Product Name:</label>
           <input
             type="text"
             name="name"
